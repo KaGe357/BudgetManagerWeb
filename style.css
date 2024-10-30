@@ -1,0 +1,60 @@
+
+.oxanium {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.main-page{
+    color: rgb(48, 2, 255);
+    background: #ebf9ff76;
+    background-size: cover; 
+    background-position: center; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("./img/background.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-size: 1.5rem;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-signin {
+    max-width: 400px; 
+    padding: 20px; 
+}
+#img{
+    border-radius: 50%;
+}
+.resize{
+    max-width: 300px;
+}
+#incomeChart{
+    max-width: 250px;
+    max-height: 250px;
+}
+#expenseChart{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.bordered{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+.bold{
+    font-weight: bold;
+}
